@@ -73,3 +73,60 @@ Laundry-System
 │
 └── database
 └── MySQL tables
+
+1. 🔧 How to Run (VERY IMPORTANT)
+
+Without this, your evaluator or recruiter can’t run your project.
+
+👉 Add this section:
+
+## ⚙️ How to Run Project
+
+### 1. Clone Repository
+git clone https://github.com/your-username/laundry-system.git
+
+### 2. Backend Setup (Spring Boot)
+- Open project in STS / IntelliJ
+- Configure MySQL in application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/laundry_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+
+- Run the Spring Boot application
+
+### 3. Frontend
+- Open index.html in browser
+
+Backend runs on:
+http://localhost:8080
+
+## 🤖 AI Usage
+
+### Tools Used:
+- ChatGPT
+
+### Where AI Helped:
+- Designing REST APIs
+- Fixing DELETE (405 error)
+- Fixing EDIT (PUT not working)
+- Dashboard logic
+- Bill print UI
+
+### Mistakes & Fixes:
+- ❌ Wrong endpoint for DELETE → Fixed mapping
+- ❌ PUT not working → Corrected controller
+- ❌ Null values issue → Fixed in service layer
+- ❌ Status not updating → Fixed API URL
+
+  ## 👩‍💻 Developer
+Shreya Rokade
+
+## 🔮 Future Improvements
+
+- Login Authentication
+- Online Payment Integration
+- SMS Notification
+- Mobile Responsive UI
+  
