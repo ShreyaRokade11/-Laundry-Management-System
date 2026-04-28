@@ -101,7 +101,18 @@ spring.jpa.hibernate.ddl-auto=update
 
 Backend runs on:
 http://localhost:8080
+## 📸 Screenshots
 
+### 🏠 Dashboard
+![Dashboard](Screenshots/dashboard.png)
+
+### 🧾 Orders Page
+![Orders](Screenshots/orders.png)
+
+### 🧾 Bill Print
+![Bill](Screenshots/bill.png)
+
+---
 ## 🤖 AI Usage
 
 ### Tools Used:
